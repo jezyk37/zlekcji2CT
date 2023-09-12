@@ -1,5 +1,8 @@
-Lekcja 1
+Lekcja 1 
 git clone
 git init
-$ cd zlekcji2CT
-$ git init
+cd zlekcji2CT
+git init
+git commit
+git push 
+da
