@@ -76,6 +76,7 @@ nav h2 {
     height: 380px;
     width: 1400px;
     border-radius: 20px;
+    overflow-y: scroll;
 }
 footer {
     background-color: #fdd100;
@@ -87,12 +88,11 @@ footer {
     display: flex;
     height: 30px;
 }
-footer p {
-   
-}
 .calyopis{
     width: 80%;
     text-align: center;
+    margin-right: auto;
+    margin-left: auto;
 }
 .podstrona{
     text-align: center;
@@ -118,7 +118,7 @@ footer p {
     border-radius: 200px;
     max-height: 420px;
     max-width: 30%;
-    
+  
 }
 .podstronaheader{
     width: 100%;
@@ -128,11 +128,58 @@ footer p {
     justify-content: space-around;
     align-items: center; 
 }
-.podstronaheader button{
+.podstronaheader a{
+    padding: 10px 10px;
+    border-radius: 30px;
     color: #fdd100;
     border: 2px solid #ffd100;
-    border-radius: 30px;
-    width: 140px;
-    height: 35px;
     background-color: black
+}
+.podstronaheader a:hover{
+    transition: 1.5s;
+    background-color: #fdd100;
+    color: #000;
+    border: solid #000 2px;
+}
+nav{
+    display: flex;
+    width: 80%;
+}
+.podstronaheader1{
+    width: 50%;
+    display: flex;
+    justify-content: start;
+}
+.podstronaheader2{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+}
+.tebalastrfgl{
+}
+.tabelastrglcontent{
+    width: 80%;
+    padding: 1px 20px;
+    color: #d6d6d6;
+    text-align: left;
+    background-color: #202020;
+    display: inline-block;
+    margin: 10px;
+    height: 380px;
+    width: 1400px;
+    border-radius: 20px;
+    overflow-x: scroll;
+}
+.tabela{
+    text-align: center;
+}
+.tabelastrglcontent th{
+text-align: center;
+height: 0px;
+padding: 10px 10px;
+}
+.tabelastrglcontent td{
+text-align: center;
+height: 0px;
+padding: 40px 10px;
 }
