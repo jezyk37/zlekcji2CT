@@ -155,6 +155,7 @@ nav{
     justify-content: end;
 }
 .tabelastrgl{
+    height: 380px;
     width: 80%;
 }
 .tabelastrglcontent{
@@ -167,10 +168,9 @@ nav{
     overflow-x: scroll;
 }
 .tabela{
-    display: flex;
-    flex-direction: row;
+    text-align: center;
     width: 100%;
-    height: 380px;
+    max height: 380px;
 }
 .tabelastrglcontent th{
 text-align: center;
@@ -181,7 +181,5 @@ text-align: center;
 padding: 40px 10px;
 }
 table{
-    display: flex;
-    flex-direction: column;
-   height: 380px;
+    justify-content: space-between;
 }
